@@ -10,4 +10,4 @@ def analyze_text(text):
             charCount+=1
             if char == 'e':
                 eCount+=1
-    return f"The text contains {charCount} alphabetic characters, of which {eCount} ({100*eCount/charCount}%) are 'e'."
+    return f"The text contains {charCount} alphabetic characters, of which {eCount} ({100*eCount/charCount:0.2f}%) are 'e'."

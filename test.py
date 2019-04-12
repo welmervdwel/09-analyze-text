@@ -3,15 +3,15 @@ from analyze_text import analyze_text
 test_cases = [
     {
         "input": "Eeeee",
-        "output": "The text contains 5 alphabetic characters, of which 5 (100.0%) are 'e'."
+        "output": "The text contains 5 alphabetic characters, of which 5 (100.00%) are 'e'."
     },
     {
         "input": "Blueberries are tasteee!",
-        "output": "The text contains 21 alphabetic characters, of which 7 (33.3333333333%) are 'e'."
+        "output": "The text contains 21 alphabetic characters, of which 7 (33.33%) are 'e'."
     },
     {
         "input": "Wright's book, Gadsby, contains a total of 0 of that most common symbol ;)",
-        "output": "The text contains 55 alphabetic characters, of which 0 (0.0%) are 'e'."
+        "output": "The text contains 55 alphabetic characters, of which 0 (0.00%) are 'e'."
     },
 ]
 
